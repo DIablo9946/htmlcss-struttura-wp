@@ -5,4 +5,40 @@ l'immagine del background */
   margin: 0;
   padding: 0;
   background: url("img/back.jpg");
+  background-size: cover;
+}
+
+/* Cerco di impostare il contenitore principale della pagina */
+
+#containter {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* #containter::after {
+  content: "";
+  display: table;
+  clear: both;
+
+} */
+
+header {
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  top: 0;
+  left: 0;
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  background-color: white;
+  top: 0;
+  left: 0;
+
 }
