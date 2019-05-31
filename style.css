@@ -31,12 +31,20 @@ body {
   clear: both;
 }
 
+#img {
+  background: url("img/head.jfif");
+  background-size: cover;
+  border: white solid 10px;
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
 header {
   position: relative;
   width: 100%;
   height: 400px;
-  background: url("img/head.jfif");
-  background-size: cover;
+
   margin: 10px 0px 20px 0px;
 }
 
